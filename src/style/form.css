@@ -46,6 +46,11 @@ label {
     margin-bottom: 20px;
 }
 
+::placeholder {
+    font-size: 12px;
+}
+
 .text {
+    font-weight: bold;
     padding: 10px;
 }
