@@ -54,3 +54,7 @@ label {
     font-weight: bold;
     padding: 10px;
 }
+
+.foto label{
+    font-size: 15px;
+}
