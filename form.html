@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2-html&css/tugas1/src/style/form.css">
+    <title>form</title>
+</head>
+<body>
+    <main>
+        <form action="./src/page/card.html">
+            <h2>Halaman Pendaftaran</h2>
+            <div class="text foto">
+                <label for="file">Foto profil</label><br>
+                <input type="file" name="file" id="file">
+            </div>
+    
+            <div class="text namaLengkap">
+                <label for="name">Nama lengkap</label><br>
+                <input type="text" name="name" id="name" placeholder="Masukan nama anda">
+            </div>
+    
+            <div class="text pekerJaan">
+                <label for="pekerjaan">Pekerjaan</label><br>
+                <input type="text" name="name" id="pekerjaan" placeholder="Masukan pekerjaan">
+            </div>
+    
+            <div class="text">
+                <p>Hobby</p>
+                <input type="checkbox" name="hobby" id="hobby">
+                <label for="hobby">SepakBola</label>
+                <input type="checkbox" name="hobby" id="Badminton">
+                <label for="Badminton">Badminton</label>
+                <input type="checkbox" name="hobby" id="Bilyard">
+                <label for="Bilyard">Bilyard</label>
+                <input type="checkbox" name="hobby" id="Basket">
+                <label for="Basket">Basket</label>
+            </div>
+    
+            <div class="text">
+                <label for="nationality">Nationality</label>
+                <select name="nationality" id="nationality">
+                    <option value="">----</option>
+                    <option value="">INDONESIA</option>
+                    <option value="">MALAYSIA</option>
+                    <option value="">THAILAND</option>
+                </select>
+            </div>
+    
+            <div class="text">
+                <label for="bio">Biodata</label><br>
+                <textarea name="bio" id="bio" cols="25" rows="0" placeholder="Masukan biodata"></textarea>
+            </div>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
